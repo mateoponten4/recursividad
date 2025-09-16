@@ -10,7 +10,7 @@ codigo de recursividad
     {
         return n * factorial(n - 1)
     }
-fun main()
+    fun main()
     {
       println(factorial(5))
     }
