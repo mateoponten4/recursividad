@@ -34,3 +34,43 @@ El factorial se utiliza mucho en:
 -Probabilidades
 -Series matemáticas
 -Álgebra y análisis matemático
+
+# 22-09
+# Continuacion
+## Mostrar los numeros del 5 al 1 por pantalla
+    fun contarRegresivo (n: int)
+    {
+    if(n==0)
+    { 
+        return
+    }
+        else
+     {
+     print(n)
+         contarRegresivo(n-1)
+     }
+     }
+         fun main()
+     {
+         contarRegresivo(s)
+     }
+
+ ## 23-09
+## Actividad
+Suma de los primeros numeros
+
+    fun suma (n:int)
+    {
+    if(n==0)
+    { 
+     return 0
+      }
+      else
+     {
+     return n+suma(n-1)
+     }
+     }
+     fun main ()
+       { 
+        println(suma(s))
+    }
